@@ -1,0 +1,33 @@
+.hero {
+    background-image: url("images/recipes.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #212529; /* Dark background to match the navbar */
+    color: white;
+    padding: 40px 0; /* Increased padding for better spacing */
+}
+.footer a {
+    color: #ffc107; /* Bootstrap yellow for links */
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline; /* Underline on hover for better UX */
+}
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+}

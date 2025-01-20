@@ -1,0 +1,17 @@
+{
+  "name": "recipe-full-stack-project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "author": "Abdul Moeed",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.7.3"
+  }
+}
